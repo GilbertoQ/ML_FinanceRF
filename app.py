@@ -8,8 +8,8 @@ from PIL import Image
 
 
 '''
-#### This is a completed preproceed data set of the US Dollar and Australian Dollar foreign exchange.
-#### The data loaded is chosen from a "Tripple Barrier Strategy" on the second by second foreign echange data then further fit by a Random Forest Classifier. 
+#### Loaded preprocessed data-set of the US Dollar and Australian Dollar foreign exchange.
+#### The data loaded is chosen from a "Tripple Barrier Strategy" on the second by second foreign exchange data then further fit by a Random Forest Classifier. 
 '''
 image = st.cache(Image.open)('./data/data.jpg')
 st.sidebar.image(image, caption='Machine Learning in Finance',use_column_width=True)
