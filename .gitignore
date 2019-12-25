@@ -121,3 +121,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#Session Keys
+/AMZ_Key_Pair
