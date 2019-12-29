@@ -10,6 +10,7 @@ from PIL import Image
 '''
 #### Loaded preprocessed data-set of the US Dollar and Australian Dollar foreign exchange.
 #### The data loaded is chosen from a "Tripple Barrier Strategy" on the second by second foreign exchange data then further fit by a Random Forest Classifier. 
+#### Please keep in mind that data before 2016 was used to train hence the ROC curve will be much better if those dates are included.
 '''
 image = st.cache(Image.open)('./data/data.jpg')
 st.sidebar.image(image, caption='Machine Learning in Finance',use_column_width=True)
